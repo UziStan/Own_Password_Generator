@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #100f0f;
+}
+
+h1 {
+    color: green;
+    font-size: 70px;
+}
+
+.container {
+    min-width: 500px;
+    padding: 30px 20px;
+    background: #000000;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.container .input_container {
+    border: 2px solid green;
+    background: #ffffffbb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container .input_container #input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .input_container .fa-copy {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.container .input_container .fa-copy:hover {
+    opacity: 1;
+}
+
+.container .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1f1d1d;;
+    padding: 5px 0;
+    margin: 10px;
+}
+.container .row h2 {
+    color: #00ffffcc;
+}
+
+.container .row input[type="checkbox"] {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+.container #btn {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: green;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container #btn:hover {
+    color: #000;
+}
+
+.container #btn:active {
+    transform: scale(0.95);
+}
+
+.hide {
+    display: none;
+}
